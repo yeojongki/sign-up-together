@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "the server side of sign-up-together",
+  "author": "yeojongki <yeojongki@foxmail.com>",
+  "homepage": "https://github.com/yeojongki/sign-up-together#readme",
+  "license": "MIT",
+  "main": "lib/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeojongki/sign-up-together.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yeojongki/sign-up-together/issues"
+  }
+}

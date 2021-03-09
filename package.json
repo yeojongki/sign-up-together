@@ -1,0 +1,13 @@
+{
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "postinstall": "node node_modules\\esbuild\\install.js"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
