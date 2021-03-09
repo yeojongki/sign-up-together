@@ -2,7 +2,8 @@
   "workspaces": [
     "packages/*"
   ],
-  "name": "root",
+  "name": "sign-up-together",
+  "author": "yeojongki <yeojongki@foxmail.com>",
   "private": true,
   "scripts": {
     "postinstall": "node node_modules\\esbuild\\install.js"
