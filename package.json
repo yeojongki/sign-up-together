@@ -6,7 +6,9 @@
   "author": "yeojongki <yeojongki@foxmail.com>",
   "private": true,
   "scripts": {
-    "postinstall": "node node_modules\\esbuild\\install.js"
+    "postinstall": "node node_modules\\esbuild\\install.js",
+    "web:dev":"cd packages/web && yarn dev",
+    "server:dev":"cd packages/server && yarn dev"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
