@@ -1,5 +1,5 @@
 import { IsOptional, MaxLength, IsNotEmpty, Length } from 'class-validator';
-import { Column, Entity, Unique } from 'typeorm';
+import { Column, Entity } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { BaseEntity } from '@/shared/entities/base.entity';
 import { CrudValidationGroups } from '@nestjsx/crud';
@@ -8,7 +8,6 @@ import { Exclude } from 'class-transformer';
 const { CREATE, UPDATE } = CrudValidationGroups;
 
 @Entity('user')
-@Unique(['username'])
 export class User extends BaseEntity {
   @ApiProperty()
   @MaxLength(30, { always: true })
